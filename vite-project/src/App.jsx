@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => { //Załadowanie zadań 
     const zadaniaLoad = JSON.parse(localStorage.getItem('zadania'));
     if (zadaniaLoad) {
-      ustawZad(zadaniaLoad);
+      ustawZad(zadaniaLoad);   
     }
   }, []);
 
